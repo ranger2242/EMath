@@ -4,8 +4,9 @@ package com.company;
  * Created by Dago on 2/15/2017.
  */
 public class Force extends Vector2 {
-    public float magnitude;
+    public float magnitude; //magnitude is si form so magnitude is in Newtons
     public float angle;
+
 
     public Force() {
 
@@ -14,6 +15,11 @@ public class Force extends Vector2 {
     public Force(float magnitude) {
         this.magnitude = magnitude;
     }
+    public Force(float magnitude, float angle){
+        this.magnitude=magnitude;
+        this.angle = angle;
+    }
+
 
     public float getMagnitude() {
         return magnitude;
