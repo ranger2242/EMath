@@ -8,6 +8,9 @@ public class Main {
     public static Vector2 test2= new Vector2(5,8,30);
     public static void main(String[] args){
       //  out( " "+test.add(test,test2).magnitude);
+        EMath test3 = new EMath();
+
+
 
 
     }

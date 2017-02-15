@@ -46,6 +46,7 @@ public class Vector2 {
 
         return vector;
     }
+
     public float getMagnitude(){
         return magnitude;
     }
