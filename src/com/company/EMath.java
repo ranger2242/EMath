@@ -97,7 +97,7 @@ public class EMath {
         double fill = step * rn.nextInt(100) + 1;
         if (a > b) return b + fill;
         else return a + fill;
-    }
+    }//test
 
     public static double randomGaussianAverage(double a, double b) {
         double mid = (a + b) / 2;
@@ -139,17 +139,17 @@ public class EMath {
         } else
             return false;
     }
-    public static float[] quadraticEq(float a, float b, float c){
-        float qu= (float) (Math.pow(b,2)-4*a*c);
+    public static double[] quadraticEq(double a, double b, double c){
+        double qu=(Math.pow(b,2)-4*a*c);
         if(qu>=0) {
-            float posQuad = (float) ((-b) + (Math.sqrt(qu) / (2 * a)));
-            float negQuad = (float) ((-b) - (Math.sqrt(qu) / (2 * a)));
-            float[] temp = {posQuad, negQuad};
+            double posQuad =  ((-b) + (Math.sqrt(qu) / (2 * a)));
+            double negQuad = ((-b) - (Math.sqrt(qu) / (2 * a)));
+            double[] temp = {posQuad, negQuad};
             System.out.print(posQuad + " " + negQuad);
             return temp;
         }else{
             System.out.println("Complex roots");
-            return new float[]{0,0};
+            return new double[]{0,0};
         }
 
     }

@@ -46,13 +46,6 @@ public class Vector2 {
 
         return vector;
     }
-    public float dotProduct(Vector2 v1,Vector2 v2){
-        float product;
-        product=(v1.x*v2.x)+(v1.y*v2.y);
-        return product;
-
-    }
-
 
     public float getMagnitude(){
         return magnitude;
@@ -71,6 +64,11 @@ public class Vector2 {
      angle= (float)(Math.atan(x)*57.296);
      return angle;
     }
+
+
+
+
+
     public float dx(Vector2 a) {
         return this.x - a.x;
     }
