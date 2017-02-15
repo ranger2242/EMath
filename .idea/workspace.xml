@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d10bd3e-f288-4c91-bcf5-9c1f27f2aca6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Force.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EMath/com/company/EMath.class" afterPath="$PROJECT_DIR$/out/production/EMath/com/company/EMath.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EMath/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/EMath/com/company/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Vector2.java" afterPath="$PROJECT_DIR$/src/com/company/Vector2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Force.java" afterPath="$PROJECT_DIR$/src/com/company/Force.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +27,7 @@
       <file leaf-file-name="EMath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/EMath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="968">
               <caret line="150" column="48" lean-forward="false" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
               <folding>
                 <element signature="docComment;class#EMath#0" expanded="false" />
@@ -53,7 +50,7 @@
       <file leaf-file-name="Physics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Physics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="1342">
               <caret line="103" column="68" lean-forward="false" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
               <folding>
                 <element signature="docComment;class#Physics#0" expanded="false" />
@@ -95,11 +92,17 @@
       <file leaf-file-name="Force.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Force.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="-150">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -509,7 +512,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487129263748</updated>
       <workItem from="1487129267411" duration="8936000" />
-      <workItem from="1487172403529" duration="657000" />
+      <workItem from="1487172403529" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="Initial upload">
       <created>1487129793779</created>
@@ -525,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487136336060</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="made Force class&#10;">
+      <created>1487173083805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487173083805</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9593000" />
+    <option name="totallyTimeSpent" value="9921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -575,7 +585,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial upload" />
     <MESSAGE value="starting linear motion equations" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting linear motion equations" />
+    <MESSAGE value="made Force class&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="made Force class&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -643,9 +654,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Vector2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Physics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="1342">
           <caret line="103" column="68" lean-forward="false" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
           <folding>
             <element signature="docComment;class#Physics#0" expanded="false" />
@@ -665,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EMath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="968">
           <caret line="150" column="48" lean-forward="false" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
           <folding>
             <element signature="docComment;class#EMath#0" expanded="false" />
@@ -684,29 +711,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Vector2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Force.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="-150">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
