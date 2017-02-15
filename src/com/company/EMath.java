@@ -143,6 +143,7 @@ public class EMath {
         float posQuad = (float)((-b)+(Math.sqrt(Math.pow(b,2)-4*a*c)))/(2*a);
         float negQuad = (float)((-b)-(Math.sqrt(Math.pow(b,2)-4*a*c)))/(2*a);
         float[] temp = {posQuad,negQuad};
+        System.out.print(posQuad+" "+negQuad);
         return temp;
 
     }
