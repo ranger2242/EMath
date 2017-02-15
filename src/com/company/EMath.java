@@ -139,12 +139,18 @@ public class EMath {
         } else
             return false;
     }
-    public static float[] QuadraticEq(float a,float b,float c){
-        float posQuad = (float)((-b)+(Math.sqrt(Math.pow(b,2)-4*a*c)))/(2*a);
-        float negQuad = (float)((-b)-(Math.sqrt(Math.pow(b,2)-4*a*c)))/(2*a);
-        float[] temp = {posQuad,negQuad};
-        System.out.print(posQuad+" "+negQuad);
-        return temp;
+    public static float[] quadraticEq(float a, float b, float c){
+        float qu= (float) (Math.pow(b,2)-4*a*c);
+        if(qu>=0) {
+            float posQuad = (float) ((-b) + (Math.sqrt(qu) / (2 * a)));
+            float negQuad = (float) ((-b) - (Math.sqrt(qu) / (2 * a)));
+            float[] temp = {posQuad, negQuad};
+            System.out.print(posQuad + " " + negQuad);
+            return temp;
+        }else{
+            System.out.println("Complex roots");
+            return new float[]{0,0};
+        }
 
     }
 }

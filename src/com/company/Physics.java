@@ -7,8 +7,11 @@ public class Physics {
     /*
         Position Functions
     */
-    public static float posx(float x0, float v0x, float ax, float t){
-        return x0+v0x*t+.5f*(ax*t*t);
+    public static float pos(float posInit, float velInit, float cnstAcc, float t){
+        return posInit+velInit*t+.5f*(cnstAcc*t*t);
+    }
+    public static float posInit(float pos, float velInit, float cnstAcc, float t){
+        return pos-velInit*t-.5f*(cnstAcc*t*t);
     }
     public static float dPos(float velAvg, float dTime){
         //vAvg-avg velocity
@@ -24,6 +27,14 @@ public class Physics {
     public static float velInit2(float velAvg, float cnstAcc,float time){
         return velAvg-(.5f*cnstAcc*time);
     }
+    public static float velInit(float pos,float posInit, float cnstAcc, float time){
+        if(time != 0){
+            return (pos-posInit-(cnstAcc*time*time))/time;
+        }else{
+            return 0;
+        }
+    }
+
     public static float velAvg(float x1, float x2, float t1, float t2){
         return velAvg(EMath.dx(x1,x2),EMath.dx(t1,t2));
     }
@@ -49,7 +60,15 @@ public class Physics {
     /*
         Acceleration Functions
     */
-    //Straight line average acceleration
+    //Straight line average
+    public static float acc(float pos,float posInit, float velInit, float time){
+        if(time != 0){
+            return (pos-posInit-(velInit*time))/(time*time);
+        }
+        else{
+            return 0;
+        }
+    }
     public static float accAvg(float v1, float v2, float t1, float t2){
         return accAvg(EMath.dx(v1,v2),EMath.dx(t1,t2));
     }
@@ -80,6 +99,9 @@ public class Physics {
             System.out.println("-Divide by 0 error-");
             return 0;
         }
+    }
+    public static float[] time(float cnstAcc, float velInit, float pos, float posInit){
+        return EMath.quadraticEq(-.5f*cnstAcc,-velInit,pos-posInit);
     }
     public static float dTime(float dpos, float velAvg){
         if(velAvg !=0){
