@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d10bd3e-f288-4c91-bcf5-9c1f27f2aca6" name="Default" comment="testing">
+    <list default="true" id="2d10bd3e-f288-4c91-bcf5-9c1f27f2aca6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/physics/Work.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Body.java" afterPath="$PROJECT_DIR$/src/com/company/Body.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Force.java" afterPath="$PROJECT_DIR$/src/com/company/Force.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/physics/Physics.java" afterPath="$PROJECT_DIR$/src/com/company/physics/Physics.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,36 +22,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EMath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/EMath.java">
+      <file leaf-file-name="Projectile2D.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/physics/Projectile2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="133" column="14" lean-forward="false" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="35" selection-end-column="9" />
               <folding>
-                <element signature="docComment;class#EMath#0" expanded="false" />
-                <element signature="method#pathag#0;class#EMath#0" expanded="false" />
-                <element signature="method#pathag#1;class#EMath#0" expanded="false" />
-                <element signature="method#angle#0;class#EMath#0" expanded="false" />
-                <element signature="method#round#0;class#EMath#0" expanded="false" />
-                <element signature="method#roundToNearest45#0;class#EMath#0" expanded="false" />
-                <element signature="method#arcL#0;class#EMath#0" expanded="false" />
-                <element signature="method#average#0;class#EMath#0" expanded="false" />
-                <element signature="method#randomAverage#0;class#EMath#0" expanded="false" />
-                <element signature="method#randomGaussianAverage#0;class#EMath#0" expanded="false" />
-                <element signature="method#vectorAverage#0;class#EMath#0" expanded="false" />
-                <element signature="method#quadraticEq#0;class#EMath#0" expanded="false" />
+                <element signature="docComment;class#Projectile2D#0" expanded="false" />
+                <element signature="method#posY#0;class#Projectile2D#0" expanded="false" />
+                <element signature="method#yInit#0;class#Projectile2D#0" expanded="false" />
+                <element signature="method#velXInit#0;class#Projectile2D#0" expanded="false" />
+                <element signature="method#velXInit#1;class#Projectile2D#0" expanded="false" />
+                <element signature="method#velYInit#1;class#Projectile2D#0" expanded="false" />
+                <element signature="method#time#0;class#Projectile2D#0" expanded="false" />
+                <element signature="method#time2#0;class#Projectile2D#0" expanded="false" />
+                <element signature="method#time#1;class#Projectile2D#0" expanded="false" />
+                <element signature="method#gravity#0;class#Projectile2D#0" expanded="false" />
+                <element signature="method#gravity#1;class#Projectile2D#0" expanded="false" />
+                <element signature="method#thetaInitDeg#0;class#Projectile2D#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Physics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/physics/Physics.java">
+      <file leaf-file-name="Work.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/physics/Work.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding>
-                <element signature="docComment;class#Physics#0" expanded="false" />
+                <element signature="docComment;class#Work#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -62,79 +60,16 @@
       <file leaf-file-name="Force.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Force.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="442">
+              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
-                <element signature="docComment;class#Force#0" expanded="false" />
-                <element signature="method#Force#0;class#Force#0" expanded="false" />
+                <marker date="1487225628286" expanded="false" signature="759:770" ph=" { " />
+                <marker date="1487225628286" expanded="false" signature="783:789" ph=" }" />
+                <marker date="1487225628286" expanded="false" signature="845:856" ph=" { " />
+                <marker date="1487225628286" expanded="false" signature="883:889" ph=" }" />
+                <marker date="1487225628286" expanded="false" signature="929:940" ph=" { " />
+                <marker date="1487225628286" expanded="false" signature="959:965" ph=" }" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Projectile2D.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/physics/Projectile2D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="46" column="79" lean-forward="false" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
-              <folding>
-                <element signature="docComment;class#Projectile2D#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Motion1D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/physics/Motion1D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="132" column="51" lean-forward="false" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
-              <folding>
-                <element signature="method#pos#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#posInit#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#dPos#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#velInit#1;class#Motion1D#0" expanded="false" />
-                <element signature="method#velAvg#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#velAvg#1;class#Motion1D#0" expanded="false" />
-                <element signature="method#velAvg#2;class#Motion1D#0" expanded="false" />
-                <element signature="method#vel#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#acc#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#accAvg#1;class#Motion1D#0" expanded="false" />
-                <element signature="method#time#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#time2#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#time#1;class#Motion1D#0" expanded="false" />
-                <element signature="method#dTime#0;class#Motion1D#0" expanded="false" />
-                <element signature="method#dTime2#0;class#Motion1D#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vector2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Vector2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-              <folding>
-                <element signature="docComment;class#Vector2#0" expanded="false" />
-                <element signature="method#Vector2#0;class#Vector2#0" expanded="false" />
-                <element signature="method#Vector2#1;class#Vector2#0" expanded="false" />
-                <element signature="method#Vector2#2;class#Vector2#0" expanded="false" />
-                <element signature="method#Vector2#3;class#Vector2#0" expanded="false" />
-                <element signature="method#add#0;class#Vector2#0" expanded="false" />
-                <element signature="method#add#1;class#Vector2#0" expanded="false" />
-                <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -144,8 +79,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -177,6 +112,9 @@
         <option value="$PROJECT_DIR$/src/com/company/EMath.java" />
         <option value="$PROJECT_DIR$/src/com/company/physics/Motion1D.java" />
         <option value="$PROJECT_DIR$/src/com/company/physics/Projectile2D.java" />
+        <option value="$PROJECT_DIR$/src/com/company/physics/CircularMotion2D.java" />
+        <option value="$PROJECT_DIR$/src/com/company/physics/Energy.java" />
+        <option value="$PROJECT_DIR$/src/com/company/physics/Work.java" />
       </list>
     </option>
   </component>
@@ -187,10 +125,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,7 +148,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,6 +220,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,6 +241,119 @@
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/Body.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/Force.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/company/physics/Physics.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -420,6 +471,16 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -676,8 +737,7 @@
       <workItem from="1487176242618" duration="3889000" />
       <workItem from="1487185833674" duration="100000" />
       <workItem from="1487186044976" duration="2535000" />
-      <workItem from="1487221394043" duration="54000" />
-      <workItem from="1487225199942" duration="2000" />
+      <workItem from="1487221394043" duration="4554000" />
     </task>
     <task id="LOCAL-00001" summary="Initial upload">
       <created>1487129793779</created>
@@ -707,7 +767,28 @@
       <option name="project" value="LOCAL" />
       <updated>1487176778484</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="uploading">
+      <created>1487221464152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487221464152</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finished projectile2d , beginning circularMotion2d">
+      <created>1487222792640</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1487222792640</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished circularMotion2d">
+      <created>1487224790874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1487224790874</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -719,41 +800,41 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18845000" />
+    <option name="totallyTimeSpent" value="23343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06366459" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33295584" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227633" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24670571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,7 +848,10 @@
     <MESSAGE value="starting linear motion equations" />
     <MESSAGE value="more linear mortion equations" />
     <MESSAGE value="setup testing framework&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup testing framework&#10;" />
+    <MESSAGE value="uploading" />
+    <MESSAGE value="finished projectile2d , beginning circularMotion2d" />
+    <MESSAGE value="finished circularMotion2d" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished circularMotion2d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -778,107 +862,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/EMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="133" column="14" lean-forward="false" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
-          <folding>
-            <element signature="docComment;class#EMath#0" expanded="false" />
-            <element signature="method#pathag#0;class#EMath#0" expanded="false" />
-            <element signature="method#pathag#1;class#EMath#0" expanded="false" />
-            <element signature="method#angle#0;class#EMath#0" expanded="false" />
-            <element signature="method#round#0;class#EMath#0" expanded="false" />
-            <element signature="method#roundToNearest45#0;class#EMath#0" expanded="false" />
-            <element signature="method#arcL#0;class#EMath#0" expanded="false" />
-            <element signature="method#average#0;class#EMath#0" expanded="false" />
-            <element signature="method#randomAverage#0;class#EMath#0" expanded="false" />
-            <element signature="method#randomGaussianAverage#0;class#EMath#0" expanded="false" />
-            <element signature="method#vectorAverage#0;class#EMath#0" expanded="false" />
-            <element signature="method#quadraticEq#0;class#EMath#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/physics/Physics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#Physics#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Force.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="docComment;class#Force#0" expanded="false" />
-            <element signature="method#Force#0;class#Force#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/physics/Projectile2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Projectile2D#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/physics/Motion1D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="132" column="51" lean-forward="false" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
-          <folding>
-            <element signature="method#pos#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#posInit#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#dPos#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#velInit#1;class#Motion1D#0" expanded="false" />
-            <element signature="method#velAvg#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#velAvg#1;class#Motion1D#0" expanded="false" />
-            <element signature="method#velAvg#2;class#Motion1D#0" expanded="false" />
-            <element signature="method#vel#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#acc#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#accAvg#1;class#Motion1D#0" expanded="false" />
-            <element signature="method#time#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#time2#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#time#1;class#Motion1D#0" expanded="false" />
-            <element signature="method#dTime#0;class#Motion1D#0" expanded="false" />
-            <element signature="method#dTime2#0;class#Motion1D#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Vector2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#Vector2#0" expanded="false" />
-            <element signature="method#Vector2#0;class#Vector2#0" expanded="false" />
-            <element signature="method#Vector2#1;class#Vector2#0" expanded="false" />
-            <element signature="method#Vector2#2;class#Vector2#0" expanded="false" />
-            <element signature="method#Vector2#3;class#Vector2#0" expanded="false" />
-            <element signature="method#add#0;class#Vector2#0" expanded="false" />
-            <element signature="method#add#1;class#Vector2#0" expanded="false" />
-            <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EMath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -927,6 +910,17 @@
           <caret line="39" column="71" lean-forward="true" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
           <folding>
             <element signature="docComment;class#Projectile2D#0" expanded="false" />
+            <element signature="method#posY#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#yInit#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velXInit#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velXInit#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velYInit#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time2#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#gravity#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#gravity#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#thetaInitDeg#0;class#Projectile2D#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,6 +962,8 @@
             <element signature="method#add#0;class#Vector2#0" expanded="false" />
             <element signature="method#add#1;class#Vector2#0" expanded="false" />
             <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1557#1558#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1028,6 +1024,17 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Projectile2D#0" expanded="false" />
+            <element signature="method#posY#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#yInit#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velXInit#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velXInit#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velYInit#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time2#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#gravity#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#gravity#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#thetaInitDeg#0;class#Projectile2D#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1069,6 +1076,8 @@
             <element signature="method#add#0;class#Vector2#0" expanded="false" />
             <element signature="method#add#1;class#Vector2#0" expanded="false" />
             <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1557#1558#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1160,6 +1169,8 @@
             <element signature="method#add#0;class#Vector2#0" expanded="false" />
             <element signature="method#add#1;class#Vector2#0" expanded="false" />
             <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1557#1558#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1251,6 +1262,8 @@
             <element signature="method#add#0;class#Vector2#0" expanded="false" />
             <element signature="method#add#1;class#Vector2#0" expanded="false" />
             <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1557#1558#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1342,6 +1355,8 @@
             <element signature="method#add#0;class#Vector2#0" expanded="false" />
             <element signature="method#add#1;class#Vector2#0" expanded="false" />
             <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1557#1558#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1361,25 +1376,14 @@
         <state relative-caret-position="308">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Force.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="docComment;class#Force#0" expanded="false" />
-            <element signature="method#Force#0;class#Force#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EMath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
+        <state relative-caret-position="428">
           <caret line="133" column="14" lean-forward="false" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
           <folding>
             <element signature="docComment;class#EMath#0" expanded="false" />
@@ -1400,7 +1404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/physics/Physics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="51">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#Physics#0" expanded="false" />
@@ -1410,7 +1414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/physics/Motion1D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
+        <state relative-caret-position="556">
           <caret line="132" column="51" lean-forward="false" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
           <folding>
             <element signature="method#pos#0;class#Motion1D#0" expanded="false" />
@@ -1434,7 +1438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Vector2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
+        <state relative-caret-position="556">
           <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
           <folding>
             <element signature="docComment;class#Vector2#0" expanded="false" />
@@ -1445,24 +1449,77 @@
             <element signature="method#add#0;class#Vector2#0" expanded="false" />
             <element signature="method#add#1;class#Vector2#0" expanded="false" />
             <element signature="method#subtract#0;class#Vector2#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1557#1558#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/physics/CircularMotion2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="docComment;class#CircularMotion2D#0" expanded="false" />
+            <element signature="method#vel#0;class#CircularMotion2D#0" expanded="false" />
+            <element signature="method#vel2#0;class#CircularMotion2D#0" expanded="false" />
+            <element signature="method#radialAcc#0;class#CircularMotion2D#0" expanded="false" />
+            <element signature="method#radius#0;class#CircularMotion2D#0" expanded="false" />
+            <element signature="method#period#0;class#CircularMotion2D#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/physics/Projectile2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="46" column="79" lean-forward="false" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
+        <state relative-caret-position="255">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="docComment;class#Projectile2D#0" expanded="false" />
+            <element signature="method#posY#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#yInit#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velXInit#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velXInit#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#velYInit#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time2#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#time#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#gravity#0;class#Projectile2D#0" expanded="false" />
+            <element signature="method#gravity#1;class#Projectile2D#0" expanded="false" />
+            <element signature="method#thetaInitDeg#0;class#Projectile2D#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Force.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <marker date="1487225628286" expanded="false" signature="759:770" ph=" { " />
+            <marker date="1487225628286" expanded="false" signature="783:789" ph=" }" />
+            <marker date="1487225628286" expanded="false" signature="845:856" ph=" { " />
+            <marker date="1487225628286" expanded="false" signature="883:889" ph=" }" />
+            <marker date="1487225628286" expanded="false" signature="929:940" ph=" { " />
+            <marker date="1487225628286" expanded="false" signature="959:965" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/physics/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="docComment;class#Work#0" expanded="false" />
           </folding>
         </state>
       </provider>
