@@ -787,7 +787,7 @@
       <workItem from="1487176242618" duration="3889000" />
       <workItem from="1487185833674" duration="100000" />
       <workItem from="1487186044976" duration="2535000" />
-      <workItem from="1487221394043" duration="7891000" />
+      <workItem from="1487221394043" duration="7901000" />
     </task>
     <task id="LOCAL-00001" summary="Initial upload">
       <created>1487129793779</created>
@@ -852,7 +852,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487229463996</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="merged functions into dynamics class">
+      <created>1487229671593</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1487229671593</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -864,7 +871,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26680000" />
+    <option name="totallyTimeSpent" value="26690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
