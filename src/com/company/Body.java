@@ -1,16 +1,19 @@
 package com.company;
 
+import com.company.physics.Physics;
+
 import java.util.ArrayList;
 
 /**
  * Created by Dago on 2/15/2017.
  */
 public class Body {
-    public float getMass() {
+    public double getMass() {
         return mass;
     }
 
-    public void setMass(float mass) {
+
+    public void setMass(double mass) {
         this.mass = mass;
     }
 
@@ -30,93 +33,105 @@ public class Body {
         this.forces = forces;
     }
 
-    public float getVelocity() {
+    public double getVelocity() {
         return velocity;
     }
 
-    public void setVelocity(float velocity) {
+    public void setVelocity(double velocity) {
         this.velocity = velocity;
     }
 
-    public float getAcceleration() {
+    public double getAcceleration() {
         return acceleration;
     }
 
-    public void setAcceleration(float acceleration) {
+    public void setAcceleration(double acceleration) {
         this.acceleration = acceleration;
     }
 
-    public float getFriction() {
+    public double getFriction() {
         return friction;
     }
 
-    public void setFriction(float friction) {
+    public void setFriction(double friction) {
         this.friction = friction;
     }
 
-    public float getTemperature() {
+    public double getTemperature() {
         return temperature;
     }
 
-    public void setTemperature(float temperature) {
+    public void setTemperature(double temperature) {
         this.temperature = temperature;
     }
 
-    public float getSpecificHeat() {
+    public double getSpecificHeat() {
         return specificHeat;
     }
 
-    public void setSpecificHeat(float specificHeat) {
+    public void setSpecificHeat(double specificHeat) {
         this.specificHeat = specificHeat;
     }
 
-    public float getHeatCapacity() {
+    public double getHeatCapacity() {
         return heatCapacity;
     }
 
-    public void setHeatCapacity(float heatCapacity) {
+    public void setHeatCapacity(double heatCapacity) {
         this.heatCapacity = heatCapacity;
     }
 
-    private float mass;
+    private double mass;
     private Vector2 position;
     private ArrayList<Force> forces;
-    private float velocity;
-    private float acceleration;
-    private float friction;
-    private float temperature;
-    private float specificHeat;
-    private float heatCapacity;
+    private double velocity;
+    private double acceleration;
+    private double friction;
+    private double temperature;
+    private double specificHeat;
+    private double heatCapacity;
+    private double coeffOfFriction;
+    private double centerOfmass;
 
-    public Body(){
+    public Body() {
 
     }
-    public Body(Body body){
+
+    public Body(Body body) {
         copy(body);
     }
-    public Body(float mass,Vector2 position,ArrayList<Force> forces,float
-            velocity,float acceleration,float friction,float temperature,float specificHeat,float heatCapacity) {
-        this.mass=mass;
-        this.position=position;
-        this.forces=forces;
-        this.velocity=velocity;
-        this.acceleration=acceleration;
-        this.friction=friction;
-        this.temperature=temperature;
-        this.specificHeat=specificHeat;
-        this.heatCapacity=heatCapacity;
+
+    public Body(double mass, Vector2 position, ArrayList<Force> forces, double
+            velocity, double acceleration, double friction, double temperature, double specificHeat, double heatCapacity, double coeffOfFriction) {
+        this.mass = mass;
+        this.position = position;
+        this.forces = forces;
+        this.velocity = velocity;
+        this.acceleration = acceleration;
+        this.friction = friction;
+        this.temperature = temperature;
+        this.specificHeat = specificHeat;
+        this.heatCapacity = heatCapacity;
+        this.coeffOfFriction = coeffOfFriction;
 
     }
-    public void copy(Body body){
-        this.mass=body.mass;
-        this.position=body.position;
-         this.forces=body.forces;
-         this.velocity=body.velocity;
-        this.acceleration=body.acceleration;
-       this.friction=body.friction;
-         this.temperature=body.temperature;
-        this.specificHeat=body.specificHeat;
-       this.heatCapacity=body.heatCapacity;
+
+    public void copy(Body body) {
+        this.mass = body.mass;
+        this.position = body.position;
+        this.forces = body.forces;
+        this.velocity = body.velocity;
+        this.acceleration = body.acceleration;
+        this.friction = body.friction;
+        this.temperature = body.temperature;
+        this.specificHeat = body.specificHeat;
+        this.heatCapacity = body.heatCapacity;
+        this.coeffOfFriction = body.coeffOfFriction;
+
+    }
+    public double getGravForce(Body body){
+        double gravity = (Physics.gravAcc*this.mass*body.mass)/(Math.pow(EMath.pathag(position,body.getPosition()),2));
+        return gravity;
 
     }
 
