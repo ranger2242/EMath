@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args){
 
-
-
+     double d=   EMath.pathag(new Vector2(0,0),new Vector2(1,1));
+System.out.print(d);
 
 
 

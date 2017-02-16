@@ -1,6 +1,5 @@
 package com.company.physics;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +17,7 @@ class Motion1DTest {
     @Test
     void velAvg() {
         double f= Motion1D.velAvg(5151000,1166000);
-        assertEquals(f,4.4);
+        assertEquals(f,4.4f);
     }
 
 }
