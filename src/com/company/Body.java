@@ -115,6 +115,10 @@ public class Body {
         this.coeffOfFriction = coeffOfFriction;
 
     }
+    public Body(double mass, Vector2 position){
+        this.mass= mass;
+        this.position=position;
+    }
 
     public void copy(Body body) {
         this.mass = body.mass;

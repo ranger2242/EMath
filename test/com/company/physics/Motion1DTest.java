@@ -17,8 +17,8 @@ class Motion1DTest {
 
     @Test
     void velAvg() {
-        float f= Motion1D.velAvg(5151000,1166000);
-        assertEquals(f,4.4f);
+        double f= Motion1D.velAvg(5151000,1166000);
+        assertEquals(f,4.4);
     }
 
 }
