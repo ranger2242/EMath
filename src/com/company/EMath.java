@@ -12,23 +12,23 @@ public class EMath {
 
     static Random rn = new Random();
 
-    public static float pathag(Vector2 a, Vector2 b) {
-        return (float) Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
+    public static double pathag(Vector2 a, Vector2 b) {
+        return  Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
     }
 
-    public static float pathag(double x1, double y1, double x2, double y2) {
-        return (float) Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
+    public static double pathag(double x1, double y1, double x2, double y2) {
+        return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
     }
 
-    public static float pathag(double a, double b) {
-        return (float) Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+    public static double pathag(double a, double b) {
+        return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
     }
 
-    public static float angle(Vector2 a, Vector2 b) {
-        float angx = b.x - a.x;
-        float angy = b.y - a.y;
+    public static double angle(Vector2 a, Vector2 b) {
+        double angx = b.x - a.x;
+        double angy = b.y - a.y;
         boolean cox, coy;
-        float initdeg = (float) Math.toDegrees(Math.atan(angy / angx));
+        double initdeg = Math.toDegrees(Math.atan(angy / angx));
         if (b.dx(b) >= 0)
             cox = true;
         else
@@ -50,7 +50,7 @@ public class EMath {
         return initdeg;
     }
 
-    public static float dx(float a, float b) {
+    public static double dx(double a, double b) {
         return b - a;
     }
 
@@ -77,13 +77,13 @@ public class EMath {
         return arr[index];
     }
 
-    public static float arcL(float theta, float r, float dl) {
-        float arc = (float) (((2 * Math.PI * r) / 360) * dl);
+    public static double arcL(double theta, double r, double dl) {
+        double arc =  (((2 * Math.PI * r) / 360) * dl);
         return 0;
     }
 
-    public static float average(float[] f) {
-        float sum = 0;
+    public static double average(double[] f) {
+        double sum = 0;
         for (int i = 0; i < f.length; i++) {
             sum += f[i];
         }
@@ -130,8 +130,8 @@ public class EMath {
         return sum;
     }
 
-    public static boolean isInHalfRange(float test, float start, float end, boolean low) {
-        float a = (start + end) / 2;
+    public static boolean isInHalfRange(double test, double start, double end, boolean low) {
+        double a = (start + end) / 2;
         if (test >= start && test <= end) {
             boolean q = test <= a;
             boolean w = test >= a;

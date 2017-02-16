@@ -4,31 +4,31 @@ package com.company;
  * Created by Dago on 2/15/2017.
  */
 public class Force extends Vector2 {
-    public float magnitude;
-    public float angle;
+    public double magnitude;
+    public double angle;
 
     public Force() {
 
     }
 
-    public Force(float magnitude) {
+    public Force(double magnitude) {
         this.magnitude = magnitude;
     }
 
-    public float getMagnitude() {
+    public double getMagnitude() {
         return magnitude;
 
     }
 
-    public float getAngle() {
+    public double getAngle() {
         return angle;
     }//change
 
-    public void setMagnitude(float magnitude) {
+    public void setMagnitude(double magnitude) {
         this.magnitude = magnitude;
     }
 
-    public void setAngle(float angle) {
+    public void setAngle(double angle) {
         this.angle = angle;
     }
 

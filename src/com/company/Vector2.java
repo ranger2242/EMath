@@ -4,10 +4,10 @@ package com.company;
  * Created by Chris Cavazos on 2/14/2017.
  */
 public class Vector2 {
-    public float x;
-    public float y;
-    public float magnitude;
-    public float angle;
+    public double x;
+    public double y;
+    public double magnitude;
+    public double angle;
 
     public Vector2() {
 
@@ -18,12 +18,12 @@ public class Vector2 {
         this.y = v.y;
     }
 
-    public Vector2(float x, float y) {
+    public Vector2(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public Vector2(float x, float y, float magnitude) {
+    public Vector2(double x, double y, double magnitude) {
         this.x = x;
         this.y = y;
         this.magnitude = magnitude;
@@ -47,21 +47,22 @@ public class Vector2 {
         return vector;
     }
 
-    public float getMagnitude(){
+    public double getMagnitude(){
         return magnitude;
     }
-    public float getMagnitude(Vector2 v1,Vector2 v2){
-        float mag;
-        mag=(float) Math.sqrt((Math.pow(v2.x-v1.x,2))+(Math.pow(v2.y-v1.y,2)));
+    public double getMagnitude(Vector2 v1,Vector2 v2){
+        double mag;
+        mag=(double) Math.sqrt((Math.pow(v2.x-v1.x,2))+(Math.pow(v2.y-v1.y,2)));
         return mag;
     }
-    public float getAngle(){
+
+    public double getAngle(){
         return angle;
     }
-    public float getAngle(Vector2 v1,Vector2 v2){
-     float angle;
-     float x = (v2.y-v1.y)/(v2.x-v1.x);
-     angle= (float)(Math.atan(x)*57.296);
+    public double getAngle(Vector2 v1,Vector2 v2){
+        double angle;
+        double x = (v2.y-v1.y)/(v2.x-v1.x);
+     angle= (Math.atan(x)*57.296);
      return angle;
     }
 
@@ -69,11 +70,11 @@ public class Vector2 {
 
 
 
-    public float dx(Vector2 a) {
+    public double dx(Vector2 a) {
         return this.x - a.x;
     }
 
-    public float dy(Vector2 a) {
+    public double dy(Vector2 a) {
         return this.y - a.y;
     }
 }

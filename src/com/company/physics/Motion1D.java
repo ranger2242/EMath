@@ -1,20 +1,24 @@
 package com.company.physics;
 
+
 import com.company.EMath;
+
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 public class Motion1D {
     /*
         Position Functions
     */
-    public static float pos(float posInit, float velInit, float cnstAcc, float t) {
+    public static double pos(double posInit, double velInit, double cnstAcc, double t) {
         return posInit + velInit * t + .5f * (cnstAcc * t * t);
     }
 
-    public static float posInit(float pos, float velInit, float cnstAcc, float t) {
+    public static double posInit(double pos, double velInit, double cnstAcc, double t) {
         return pos - velInit * t - .5f * (cnstAcc * t * t);
     }
 
-    public static float dPos(float velAvg, float dTime) {
+    public static double dPos(double velAvg, double dTime) {
         //vAvg-avg velocity
         return velAvg * dTime;//return change in position
     }
@@ -23,15 +27,15 @@ public class Motion1D {
         Velocity Functions
      */
     //Straight line average velocity
-    public static float velInit(float vel, float cnstAcc, float time) {
+    public static double velInit(double vel, double cnstAcc, double time) {
         return vel - (cnstAcc * time);
     }
 
-    public static float velInit2(float velAvg, float cnstAcc, float time) {
+    public static double velInit2(double velAvg, double cnstAcc, double time) {
         return velAvg - (.5f * cnstAcc * time);
     }
 
-    public static float velInit(float pos, float posInit, float cnstAcc, float time) {
+    public static double velInit(double pos, double posInit, double cnstAcc, double time) {
         if (time != 0) {
             return (pos - posInit - (cnstAcc * time * time)) / time;
         } else {
@@ -39,30 +43,31 @@ public class Motion1D {
         }
     }
 
-    public static float velAvg(float x1, float x2, float t1, float t2) {
+    public static double velAvg(double x1, double x2, double t1, double t2) {
         return velAvg(EMath.dx(x1, x2), EMath.dx(t1, t2));
     }
 
-    public static float velAvg(float dPos, float dTime) {
+    public static double velAvg(double dx, double dTime) {
+        DecimalFormat format =new DecimalFormat("#.##");
         if (dTime != 0) {
-            return dPos / dTime;
+            return dx/dTime;
         } else {
             System.out.println("-Divide by 0 error-");
             return 0;
         }
     }
 
-    public static float velAvg(float velInit, float cnstAcc, float time) {
+    public static double velAvg(double velInit, double cnstAcc, double time) {
         //Average velocity with constant acceleration
         return velInit + .5f * (cnstAcc * time);
     }
 
-    public static float vel(float v0x, float cnstAcc, float t) {
+    public static double vel(double v0x, double cnstAcc, double t) {
         //Velocity at specific time with constant acceleration
         return v0x + (cnstAcc * t);
     }
 
-    public static float dVel(float accAvg, float dTime) {
+    public static double dVel(double accAvg, double dTime) {
         return accAvg * dTime;
     }
 
@@ -70,7 +75,7 @@ public class Motion1D {
         Acceleration Functions
     */
     //Straight line average
-    public static float acc(float pos, float posInit, float velInit, float time) {
+    public static double acc(double pos, double posInit, double velInit, double time) {
         if (time != 0) {
             return (pos - posInit - (velInit * time)) / (time * time);
         } else {
@@ -78,11 +83,11 @@ public class Motion1D {
         }
     }
 
-    public static float accAvg(float v1, float v2, float t1, float t2) {
+    public static double accAvg(double v1, double v2, double t1, double t2) {
         return accAvg(EMath.dx(v1, v2), EMath.dx(t1, t2));
     }
 
-    public static float accAvg(float dVel, float dTime) {
+    public static double accAvg(double dVel, double dTime) {
         if (dTime != 0) {
             return dVel / dTime;
         } else {
@@ -94,7 +99,7 @@ public class Motion1D {
     /*
         Time Functions
     */
-    public static float time(float vel, float velInit, float cnstAcc) {
+    public static double time(double vel, double velInit, double cnstAcc) {
         if (cnstAcc != 0) {
             return (vel - velInit) / cnstAcc;
         } else {
@@ -103,7 +108,7 @@ public class Motion1D {
         }
     }
 
-    public static float time2(float velAvg, float velInit, float cnstAcc) {
+    public static double time2(double velAvg, double velInit, double cnstAcc) {
         if (cnstAcc != 0) {
             return (2 * (velAvg - velInit)) / cnstAcc;
         } else {
@@ -112,11 +117,11 @@ public class Motion1D {
         }
     }
 
-    public static float[] time(float cnstAcc, float velInit, float pos, float posInit) {
-        return EMath.quadraticEq(-.5f * cnstAcc, -velInit, pos - posInit);
+    public static double[] time(double cnstAcc, double velInit, double pos, double posInit) {
+        return  EMath.quadraticEq(-.5f * cnstAcc, -velInit, pos - posInit);
     }
 
-    public static float dTime(float dpos, float velAvg) {
+    public static double dTime(double dpos, double velAvg) {
         if (velAvg != 0) {
             return dpos / velAvg;//change in time
         } else {
@@ -125,7 +130,7 @@ public class Motion1D {
         }
     }
 
-    public static float dTime2(float dVel, float velAvg) {
+    public static double dTime2(double dVel, double velAvg) {
         if (velAvg != 0) {
             return dVel / velAvg;//change in time
         } else {
