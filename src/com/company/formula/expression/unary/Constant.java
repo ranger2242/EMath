@@ -3,7 +3,7 @@ package com.company.formula.expression.unary;
 /**
  * Created by tyler on 2/28/17.
  */
-public class Number implements UnaryExpression{
+public class Constant implements UnaryExpression{
 
     public double getNumber() {
 
@@ -12,12 +12,12 @@ public class Number implements UnaryExpression{
 
     private final double number;
 
-    public Number(int number) {
+    public Constant(int number) {
 
         this((double) number);
     }
 
-    public Number(double number) {
+    public Constant(double number) {
 
         this.number = number;
     }
