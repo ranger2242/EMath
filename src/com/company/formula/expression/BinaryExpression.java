@@ -30,5 +30,9 @@ public class BinaryExpression implements Expression {
         return expression2;
     }
 
+    @Override
+    public String toString() {
 
+        return "(" + this.getExpression1() + " " + this.getOperator() + " " + this.getExpression2() + ")";
+    }
 }

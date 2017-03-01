@@ -21,4 +21,10 @@ public class Number implements UnaryExpression{
 
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+
+        return "" + this.getNumber();
+    }
 }

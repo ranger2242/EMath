@@ -8,4 +8,10 @@ import com.company.formula.Symbol;
 public abstract class Operator {
 
     public abstract Symbol getSymbol();
+
+    @Override
+    public String toString() {
+
+        return "" + this.getSymbol();
+    }
 }
