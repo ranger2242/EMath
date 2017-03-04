@@ -44,7 +44,7 @@ public class Projectile2D {
         }
     }
     public static double velXInit(double velInit,double thetaDegInit){
-        return velInit*Math.cos(Math.toDegrees(thetaDegInit));//so many changes
+        return velInit*Math.cos(Math.toRadians(thetaDegInit));//so many changes
     }
     public static double velY(double velYInit, double gravity, double time){
         return velYInit-gravity*time;

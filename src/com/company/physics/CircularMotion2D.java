@@ -1,5 +1,7 @@
 package com.company.physics;
 
+import java.util.ArrayList;
+
 /**
  * Created by Chris Cavazos on 2/15/2017.
  */
@@ -11,6 +13,8 @@ public class CircularMotion2D {
         if (radialAcc*radius >= 0) {
             return Math.sqrt(radialAcc*radius);
         } else {
+            ArrayList<String> onfa= new ArrayList<>();
+
             System.out.println("-Nonreal ans error-");
             return 0;
         }
