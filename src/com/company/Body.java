@@ -133,9 +133,10 @@ public class Body {
         this.coeffOfFriction = body.coeffOfFriction;
 
     }
-    public double getGravForce(Body body){
-        double gravity = (Physics.gravAcc*this.mass*body.mass)/(Math.pow(EMath.pathag(position,body.getPosition()),2));
-        return gravity;
+    public Force getGravForce(Body body){
+        double gravity = (Physics.gravConst*this.mass*body.mass)/(Math.pow(EMath.pathag(this.position,body.getPosition()),2));
+        Force force = new Force(gravity);
+        return force;
 
     }
 
